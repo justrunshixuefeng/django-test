@@ -100,9 +100,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'runyi',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '117.132.193.165',
+        'USER': 'ruidb',
+        'PASSWORD': 'K8gv_9Wyv_6sNi',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
