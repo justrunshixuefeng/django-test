@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <table>
+
+{% comment %} <td >{{ obj_list.zuozhe }}</td>
+<td >{{ obj_list.title }}</td>
+<td >{{ obj_list.price }}</td> {% endcomment %}
+    {% comment %} {% for obj in now %}
+        <tr>
+            <td >{{ obj}}</td>
+        </tr>
+    {% endfor %} {% endcomment %}
+
+{% comment %}     {% for obj in obj_list %}
+        <tr>
+            <td >{{ obj.title }}</td>
+            <td >{{ obj.zuozhe }}</td>
+            <td >{{ obj.now }}</td>
+        </tr>
+    {% endfor %} {% endcomment %}
+    </table>
+
+{% if messages %}
+
+    <ul>
+
+    {% for message in messages %}
+
+
+        <li>
+            {{ message }}
+        </li>
+
+    {% endfor %}
+
+    </ul>
+
+    {% endif %}
+
+
+</body>
+</html>
