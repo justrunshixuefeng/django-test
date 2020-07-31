@@ -102,7 +102,7 @@ DATABASES = {
         'NAME': 'runyi',
         'USER': 'ruidb',
         'PASSWORD': 'K8gv_9Wyv_6sNi',
-        'HOST': '127.0.0.1',
+        'HOST': '124.70.38.183',
         'PORT': '3306',
     }
 }
